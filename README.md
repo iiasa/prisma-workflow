@@ -1,4 +1,4 @@
-# Scenario Explorer Workflow Template
+# PRISMA project definitions and workflow
 
 Copyright 2022-2023 IIASA
 
@@ -6,7 +6,7 @@ Copyright 2022-2023 IIASA
 
 ## Overview
 
-<img src="./_static/prisma-logo.png" width="80" height="54" align="left" alt="PRISMA logo" />
+<img src="./_static/prisma-logo.png" width="400" align="right" alt="PRISMA logo" />
 
 This repository contains the processing workflow scripts as well as definitions of
 variables and regions for the Horizon Europe project PRISMA.
