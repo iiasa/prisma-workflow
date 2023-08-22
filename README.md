@@ -14,5 +14,5 @@ variables and regions for the Horizon Europe project PRISMA.
 ## Funding acknowledgement
 
 <img src="./_static/EU-logo-300x201.jpg" width="80" height="54" align="left" alt="EU logo" />
-This project has received funding from the European Union’s Europe programme
+This project has received funding from the European Union’s Horizon Europe programme
 under grant agreement No. 101081604 (PRISMA).
