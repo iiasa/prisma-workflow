@@ -1,7 +1,9 @@
+dimensions:
+  - region
+  - variable
 repositories:
   common-definitions:
     url: https://github.com/IAMconsortium/common-definitions.git/
-    hash: 23b2833
 definitions:
   region:
     repository: common-definitions
