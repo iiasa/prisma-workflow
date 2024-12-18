@@ -1,0 +1,27 @@
+# Material stocks by commodity
+- Material Stock|Iron and Steel|Steel:
+    description: Material stock of steel
+    unit: Mt
+- Material Stock|Non-Metallic Minerals|Cement:
+    description: Material stock of cement
+    unit: Mt
+- Material Stock|Non-Ferrous Metals|Aluminum:
+    description: Material stock of aluminum
+    unit: Mt
+- Material Stock|Non-Ferrous Metals|Copper:
+    description: Material stock of copper
+    unit: Mt
+
+# Material stocks by commodity and consumption sector
+- Material Stock|Iron and Steel|Steel|{Demand Sector}:
+    description: Material stock of steel in the {Demand Sector}
+    unit: Mt
+- Material Stock|Non-Metallic Minerals|Cement|{Demand Sector}:
+    description: Material stock of cement in the {Demand Sector}
+    unit: Mt
+- Material Stock|Non-Ferrous Metals|Aluminum|{Demand Sector}:
+    description: Material stock of aluminum in the {Demand Sector}
+    unit: Mt
+- Material Stock|Non-Ferrous Metals|Copper|{Demand Sector}:
+    description: Material stock of copper in the {Demand Sector}
+    unit: Mt
