@@ -1,0 +1,15 @@
+- Demand Sector:
+    - Electricity:
+        description: electricity generation sector
+    - Electricity|{Generation Technology}:
+          description: electricity generation with {Generation Technology}
+    - Electricity|Transmission and Distribution:
+          description: electricity transmission and distribution
+    - Transportation:
+        description: transport sector
+    - Residential:
+        description: residential sector
+    - Commercial:
+        description: commercial sector
+    - Infrastructure|Mobility:
+        description: mobility infrastructure
