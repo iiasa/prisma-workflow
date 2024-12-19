@@ -1,0 +1,43 @@
+# material demand by commodity
+- Material Demand|Iron and Steel|Steel:
+    description: Demand of steel commodities
+    unit: Mt/yr
+    tier: 2
+- Material Demand|Non-Metallic Minerals|Cement:
+    description: Demand of cement
+    unit: Mt/yr
+    tier: 2
+- Material Demand|Non-Ferrous Metals|Aluminum:
+    description: Demand of aluminum
+    unit: Mt/yr
+    tier: 2
+- Material Demand|Non-Ferrous Metals|Copper:
+    description: Demand of copper
+    unit: Mt/yr
+    tier: 3
+- Material Demand|Chemicals|{Chemicals Commodity}:
+    description: Demand of {Chemicals Commodity}
+    unit: Mt/yr
+    tier: 2
+
+# material demand by commodity and demand sector
+- Material Demand|Iron and Steel|Steel|{Demand Sector}:
+    description: Demand of steel commodities in {Demand Sector}
+    unit: Mt/yr
+    tier: 2
+- Material Demand|Non-Metallic Minerals|Cement|{Demand Sector}:
+    description: Demand of cement in {Demand Sector}
+    unit: Mt/yr
+    tier: 2
+- Material Demand|Non-Ferrous Metals|Aluminum|{Demand Sector}:
+    description: Demand of aluminum in {Demand Sector}
+    unit: Mt/yr
+    tier: 2
+- Material Demand|Non-Ferrous Metals|Copper|{Demand Sector}:
+    description: Demand of copper in {Demand Sector}
+    unit: Mt/yr
+    tier: 2
+- Material Demand|Chemicals|{Chemicals Commodity}|{Demand Sector}:
+    description: Demand of {Chemicals Commodity} in {Demand Sector}
+    unit: Mt/yr
+    tier: 2
