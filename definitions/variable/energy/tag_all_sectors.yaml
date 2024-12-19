@@ -1,0 +1,4 @@
+- Sector:
+    - Industry|Non-Ferrous Metals|Copper:
+        description: copper sector
+        tier: ^1
