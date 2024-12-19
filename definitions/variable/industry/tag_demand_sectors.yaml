@@ -6,10 +6,10 @@
     - Electricity|Transmission and Distribution:
           description: electricity transmission and distribution
     - Transportation:
-        description: transport sector
+        description: transportation sector excluding infrastructure (e.g. fixed structures, installations and networks)
     - Residential:
         description: residential sector
     - Commercial:
         description: commercial sector
     - Infrastructure|Mobility:
-        description: mobility infrastructure
+        description: fixed structures, installations and networks for mobility (e.g roads, bridges, rail, waterways) excluding means of transportation (e.g. cars, trains, airplanes)
