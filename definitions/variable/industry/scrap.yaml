@@ -1,0 +1,25 @@
+- Total Scrap|Iron and Steel|Steel:
+    description: Total steel scrap
+    unit: Mt/yr
+- Total Scrap|Non-Metallic Minerals|Cement:
+    description: Total cement scrap
+    unit: Mt/yr
+- Total Scrap|Non-Ferrous Metals|Aluminum:
+    description: Total aluminum scrap
+    unit: Mt/yr
+- Total Scrap|Non-Ferrous Metals|Copper:
+    description: Total copper scrap
+    unit: Mt/yr
+
+- Total Scrap|Iron and Steel|Steel|{Demand Sector}:
+    description: Total steel scrap from {Demand Sector}
+    unit: Mt/yr
+- Total Scrap|Non-Metallic Minerals|Cement|{Demand Sector}:
+    description: Total cement scrap from {Demand Sector}
+    unit: Mt/yr
+- Total Scrap|Non-Ferrous Metals|Aluminum|{Demand Sector}:
+    description: Total aluminum scrap from {Demand Sector}
+    unit: Mt/yr
+- Total Scrap|Non-Ferrous Metals|Copper|{Demand Sector}:
+    description: Total copper scrap from {Demand Sector}
+    unit: Mt/yr
