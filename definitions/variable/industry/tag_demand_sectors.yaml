@@ -1,8 +1,20 @@
 - Demand Sector:
     - Electricity:
         description: electricity generation sector
-    - Electricity|{Generation Technology}:
-          description: electricity generation with {Generation Technology}
+    - Electricity|Biomass:
+          description: electricity generation with biomass power plants
+    - Electricity|Coal:
+          description: electricity generation with coal power plants
+    - Electricity|Gas:
+          description: electricity generation with gas power plants
+    - Electricity|Hydro:
+          description: electricity generation with hydro power plants
+    - Electricity|Nuclear:
+          description: electricity generation with nuclear power plants
+    - Electricity|Solar:
+          description: electricity generation with solar PV
+    - Electricity|Wind:
+          description: electricity generation with wind turbines
     - Electricity|Transmission and Distribution:
           description: electricity transmission and distribution
     - Transportation:
