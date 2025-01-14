@@ -8,20 +8,21 @@ definitions:
   region:
     repository: common-definitions
   variable:
-    repository: common-definitions
-    include:
-      - name: "Primary Energy*"
-        depth: [ 1, 2 ]
-      - name: "Secondary Energy*"
-        tier: [ 1, 2 ]
-      - name: "Final Energy*"
-        tier: 1
-      - name: [ Final Energy|Non-Energy Use*, Final Energy|Industry* ]
-      - name: [ Emissions|CH4*, Emissions|CO2*, Emissions|N2O* ]
-        tier: [ 1, 2 ]
-      - name: [ Emissions|Kyoto*, Emissions|F-Gases* ]
-        tier: 1
-      - name: [ Emissions|CO2|*|Industr*, Emissions|CH4|*|Industr*, Emissions|N2O|*|Industr* ]
+    repository:
+      name: common-definitions
+      include:
+        - name: Primary Energy*
+          depth: [ 1, 2 ]
+        - name: Secondary Energy*
+          tier: [ 1, 2 ]
+        - name: Final Energy*
+          tier: 1
+        - name: [ Final Energy|Non-Energy Use*, Final Energy|Industry* ]
+        - name: [ Emissions|CH4*, Emissions|CO2*, Emissions|N2O* ]
+          tier: [ 1, 2 ]
+        - name: [ Emissions|Kyoto Gases*, Emissions|F-Gases* ]
+          tier: 1
+        - name: [ Emissions|CO2|*|Industr*, Emissions|CH4|*|Industr*, Emissions|N2O|*|Industr* ]
 
 mappings:
   repository: common-definitions
