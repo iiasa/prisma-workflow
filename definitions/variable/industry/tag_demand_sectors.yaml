@@ -1,0 +1,27 @@
+- Demand Sector:
+    - Electricity:
+        description: electricity generation sector
+    - Electricity|Biomass:
+          description: construction of biomass power plants
+    - Electricity|Coal:
+          description: construction of coal power plants
+    - Electricity|Gas:
+          description: construction of gas power plants
+    - Electricity|Hydro:
+          description: construction of hydro power plants
+    - Electricity|Nuclear:
+          description: construction of nuclear power plants
+    - Electricity|Solar:
+          description: construction of solar photovoltaics and concentrated solar power
+    - Electricity|Wind:
+          description: construction of wind turbines
+    - Electricity|Transmission and Distribution:
+          description: electricity transmission and distribution
+    - Transportation|Vehicle Stock:
+        description: vehicle stock (e.g. cars, trains, airplanes, ships)
+    - Residential:
+        description: residential sector
+    - Commercial:
+        description: commercial sector
+    - Transportation|Infrastructure:
+        description: fixed structures, installations and networks for mobility (e.g roads, bridges, rail, waterways) excluding means of transportation (e.g. cars, trains, airplanes)
