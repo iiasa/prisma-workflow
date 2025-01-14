@@ -1,0 +1,33 @@
+- Scrap|Iron and Steel|Steel:
+    description: Total potential of steel scrap material as a result of end of
+      life products (before collection)
+    unit: Mt/yr
+- Scrap|Non-Metallic Minerals|Cement:
+    description: Total potential of cement scrap material as a result of end of
+      life products (before collection)
+    unit: Mt/yr
+- Scrap|Non-Ferrous Metals|Aluminum:
+    description: Total potential of aluminum scrap material as a result of end of
+      life products (before collection)
+    unit: Mt/yr
+- Scrap|Non-Ferrous Metals|Copper:
+    description: Total potential of copper scrap material as a result of end of
+      life products (before collection)
+    unit: Mt/yr
+
+- Scrap|Iron and Steel|Steel|{Demand Sector}:
+    description: Total potential of steel scrap material as a result of
+      end of life products (before collection) from {Demand Sector}
+    unit: Mt/yr
+- Scrap|Non-Metallic Minerals|Cement|{Demand Sector}:
+    description: Total potential of cement scrap material as a result of
+      end of life products (before collection) from {Demand Sector}
+    unit: Mt/yr
+- Scrap|Non-Ferrous Metals|Aluminum|{Demand Sector}:
+    description: Total potential of aluminum scrap material as a result of
+      end of life products (before collection) from {Demand Sector}
+    unit: Mt/yr
+- Scrap|Non-Ferrous Metals|Copper|{Demand Sector}:
+    description: Total potential of copper scrap material as a result of
+      end of life products (before collection) from {Demand Sector}
+    unit: Mt/yr
