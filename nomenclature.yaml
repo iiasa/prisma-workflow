@@ -24,6 +24,7 @@ definitions:
           tier: 1
         - name: [ Emissions|CO2|Industrial Processes*, Emissions|CH4|Industrial Processes*, Emissions|N2O|Industrial Processes* ]
         - name: [ Emissions|CO2|Energy|Demand|Industry*, Emissions|CH4|Energy|Demand|Industry*, Emissions|N2O|Energy|Demand|Industry* ]
+        - name: [ Production|* ]
 
 mappings:
   repository: common-definitions
