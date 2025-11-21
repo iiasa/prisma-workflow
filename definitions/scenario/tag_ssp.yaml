@@ -1,0 +1,11 @@
+- SSP:
+    - SSP1:
+        description: "'Sustainability – Taking the Green Road' (SSP1)"
+    - SSP2:
+        description: "'Middle of the Road' (SSP2)"
+    - SSP3:
+        description: "'Regional Rivalry – A Rocky Road' (SSP3)"
+    - SSP4:
+        description: "'Inequality – A Road Divided' (SSP4)"
+    - SSP5:
+        description: "'Fossil-fueled Development – Taking the Highway' (SSP5)"
