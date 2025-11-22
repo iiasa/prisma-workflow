@@ -1,9 +1,9 @@
 # additional variables for the information and communication activity sector
 - Final Energy|{ICT Sector}:
-    description: Final energy consumption for {Sector}
+    description: Final energy consumption for {ICT Sector}
     unit: EJ/yr
     tier: 3
 - Final Energy|{ICT Sector}|{ICT Fuel}:
-    description: Final energy consumption for {Sector} of {ICT Fuel}
+    description: Final energy consumption for {ICT Sector} of {ICT Fuel}
     unit: EJ/yr
     tier: 3
