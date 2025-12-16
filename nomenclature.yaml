@@ -1,4 +1,5 @@
 dimensions:
+  - scenario
   - region
   - variable
 repositories:
