@@ -1,0 +1,13 @@
+- ICT Sector:
+  - Commercial|ICT:
+      description: information and communication activities (ISIC Rev. 4 Divisions 58-63, i.e. Section J)
+      tier: ^1
+  - Commercial|ICT|Data Centers:
+      description: information service activities, incl. data processing, hosting, web portals, etc. (ISIC Rev. 4 Division 63)
+      tier: ^1
+  - Commercial|ICT|Infrastructure:
+      description: wired, wireless, satellite and other telecommunications infrastructure and activities (ISIC Rev. 4 Division 61)
+      tier: ^1
+  - Commercial|ICT|Other:
+      description: other information and communication activities that do not fit under the explicitly reported activities
+      tier: ^1

@@ -1,0 +1,47 @@
+- ICT Fuel:
+    # This list has secondary-energy carriers used in the ICT sector
+    - Electricity: 
+        description: electricity
+        tier: ^1
+
+    - Liquids:
+        description: refined liquid fuels including oil products, fuels from gas and coal,
+          synthetic fuels and biofuels
+        tier: ^1
+    - Liquids|Biomass:
+        description: liquid fuels from biomass
+        tier: ^1
+    - Liquids|Fossil:
+        description: liquid fuels from fossil fuels including coal, natural gas and
+          conventional/unconventional oil
+        tier: ^1
+
+    - Solids:
+        description: solid energy carriers, including coal, briquettes, coke,
+          and wood pellets
+        tier: ^1
+    - Solids|Biomass:
+        description: solid biomass (e.g., commercial charcoal, wood chips, wood pellets)
+        tier: ^1
+    - Solids|Coal:
+        description: coal, lignite, and derived products (e.g., coke, briquettes)
+        tier: ^1
+
+    - Gases:
+        description: gaseous fuels including natural gas and biogas, not including hydrogen
+        tier: ^1
+    - Gases|Biomass:
+        description: gaseous fuels from biogenic sources, mainly biogas
+        tier: ^1
+    - Gases|Fossil:
+        description: gaseous fuels from fossil fuels including natural gas and coal
+        tier: ^1
+
+    - Hydrogen:
+        description: hydrogen
+        tier: ^1
+
+    - Heat:
+        description: centralized heat
+        tier: ^1
+
