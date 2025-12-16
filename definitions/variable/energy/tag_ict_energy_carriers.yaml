@@ -29,7 +29,7 @@
 
     - Gases:
         description: gaseous fuels including natural gas and biogas, not including hydrogen
-         tier: ^1
+        tier: ^1
     - Gases|Biomass:
         description: gaseous fuels from biogenic sources, mainly biogas
         tier: ^1
