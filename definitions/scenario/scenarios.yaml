@@ -1,2 +1,4 @@
 - "{SSP} - {Climate Policy} - {ICT Demand}":
     description: "{SSP} combined with '{Climate Policy}' climate policy assumptions and '{ICT Demand}'"
+- "{SSP} - {ScenarioMIP}":
+    description: "{SSP} combined with '{ScenarioMIP}' climate policy assumptions following the ScenarioMIP protocol"
