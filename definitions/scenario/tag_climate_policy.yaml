@@ -1,5 +1,5 @@
 - Climate Policy:
-    - Current Policies
-        description: "current climate policies including extrapolation of ambition into the future"
-    - Net-Zero
-        description: "implementation of unconditional NDCs until 2030 and net-zero targets"
+    - Current Policies:
+        description: current climate policies including extrapolation of ambition into the future
+    - Net-Zero:
+        description: implementation of unconditional NDCs until 2030 and net-zero targets
