@@ -8,7 +8,7 @@
     description: "{SSP} combined with the Asymmetric roll-back scenario"
 - "{SSP} - Asymmetric Roll-Back w/ High Costs":
     description: "{SSP} combined with the Asymmetric roll-back scenario with High Financing and Spill-over assumption"
-- "{SSP} - Late reawakening":
+- "{SSP} - Late Reawakening":
     description: "{SSP} combined with the Late reawakening scenario"
 - "{SSP} - Staying Alive":
     description: "{SSP} combined with the Staying Alive through low-regrets scenario"
