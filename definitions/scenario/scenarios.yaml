@@ -4,12 +4,12 @@
     description: "{SSP} combined with '{ScenarioMIP}' climate policy assumptions following the ScenarioMIP protocol"
 - "{SSP} - Meet aspirations":
     description: "{SSP} combined with the Meet aspirations scenario"
-- "{SSP} - Asymmetric roll-back"
+- "{SSP} - Asymmetric roll-back":
     description: "{SSP} combined with the Asymmetric roll-back scenario"
-- "{SSP} - Asymmetric roll-back w/ High Costs"
+- "{SSP} - Asymmetric roll-back w/ High Costs":
     description: "{SSP} combined with the Asymmetric roll-back scenario with High Financing and Spill-over assumption"
-- "{SSP} - Late reawakening"
+- "{SSP} - Late reawakening":
     description: "{SSP} combined with the Late reawakening scenario"
-- "{SSP} - Staying alive"
+- "{SSP} - Staying alive":
     description: "{SSP} combined with the Staying Alive through low-regrets scenario"
 
