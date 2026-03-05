@@ -4,7 +4,7 @@
     description: "{SSP} combined with '{ScenarioMIP}' climate policy assumptions following the ScenarioMIP protocol"
 - "{SSP} - Meet aspirations":
     description: "{SSP} combined with the Meet aspirations scenario"
-- "{SSP} - Asymmetric roll-back":
+- "{SSP} - Asymmetric Roll-Back":
     description: "{SSP} combined with the Asymmetric roll-back scenario"
 - "{SSP} - Asymmetric Roll-Back w/ High Costs":
     description: "{SSP} combined with the Asymmetric roll-back scenario with High Financing and Spill-over assumption"
