@@ -1,7 +1,7 @@
 # PRISMA project definitions and workflow
 
 
-Copyright 2022-2024 IIASA
+Copyright 2022-2026 IIASA
 
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
@@ -19,6 +19,11 @@ at https://prisma-internal.apps.ece.iiasa.ac.at.
 > For *users not comfortable working with GitHub repositories and yaml files*,
 > the definitions for this project are available for download as an xlsx spreadsheet
 > at https://files.ece.iiasa.ac.at/prisma/prisma-template.xlsx.
+
+> [!IMPORTANT]
+> This workflow repository uses definitions and region mappings from the
+> [common-definitions](https://github.com/IAMconsortium/common-definitions) repository.  
+> Check out [nomenclature.yaml](nomenclature.yaml) for the specific configuration.
 
 ## Funding acknowledgement
 
