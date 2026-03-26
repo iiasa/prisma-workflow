@@ -6,8 +6,6 @@ repositories:
   common-definitions:
     url: https://github.com/IAMconsortium/common-definitions.git/
 definitions:
-  region:
-    repository: common-definitions
   variable:
     repository:
       name: common-definitions
@@ -26,6 +24,32 @@ definitions:
         - name: [ Emissions|CO2|Industrial Processes*, Emissions|CH4|Industrial Processes*, Emissions|N2O|Industrial Processes* ]
         - name: [ Emissions|CO2|Energy|Demand|Industry*, Emissions|CH4|Energy|Demand|Industry*, Emissions|N2O|Energy|Demand|Industry* ]
         - name: [ Production|* ]
+  region:
+    repository:
+      name: common-definitions
+      include:
+        - hierarchy: common
+        - hierarchy: R5
+        - hierarchy: R9
+        - hierarchy: R10
+        - hierarchy: Regional Organizations
+        - hierarchy: G20 Members
+        - hierarchy: IMAGE 3.4
+        - hierarchy: MESSAGEix-GLOBIOM 2.1-R12
+        - hierarchy: MESSAGEix-GLOBIOM-GAINS 2.1-R12
+        - hierarchy: REMIND-MAgPIE 3.4-4.8
+        - hierarchy: REMIND-MAgPIE 3.5-4.13
+        - hierarchy: WITCH 6.0
+        - hierarchy: WITCH 6.0-EU28
 
 mappings:
-  repository: common-definitions
+  repository:
+    name: common-definitions
+    include:
+      - IMAGE 3.4
+      - MESSAGEix-GLOBIOM 2.1-M-R12
+      - MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
+      - REMIND-MAgPIE 3.4-4.8
+      - REMIND-MAgPIE 3.5.2-4.13
+      - WITCH 6.0
+      - WITCH 6.0-EU28
