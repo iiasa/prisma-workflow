@@ -26,6 +26,7 @@ definitions:
         - hierarchy: REMIND-MAgPIE 3.5-4.13
         - hierarchy: WITCH 6.0
         - hierarchy: WITCH 6.0-EU28
+        - hierarchy: OPEN-PROM 2.2
 
 mappings:
   repository:
@@ -38,3 +39,4 @@ mappings:
       - REMIND-MAgPIE 3.5.2-4.13
       - WITCH 6.0
       - WITCH 6.0-EU28
+      - OPEN-PROM 2.2
