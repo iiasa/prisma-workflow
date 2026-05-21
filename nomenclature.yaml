@@ -24,6 +24,7 @@ definitions:
         - hierarchy: MESSAGEix-GLOBIOM-GAINS 2.1-R12
         - hierarchy: REMIND-MAgPIE 3.4-4.8
         - hierarchy: REMIND-MAgPIE 3.5-4.13
+        - hierarchy: REMIND-MAgPIE 3.6-4.14
         - hierarchy: WITCH 6.0
         - hierarchy: WITCH 6.0-EU28
         - hierarchy: OPEN-PROM 2.2
@@ -40,3 +41,4 @@ mappings:
       - WITCH 6.0
       - WITCH 6.0-EU28
       - OPEN-PROM 2.2
+      - REMIND-MAgPIE 3.6-4.14
