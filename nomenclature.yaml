@@ -28,6 +28,7 @@ definitions:
         - hierarchy: WITCH 6.0
         - hierarchy: WITCH 6.0-EU28
         - hierarchy: OPEN-PROM 2.2
+        - hierarchy: IMACLIM 2.0
 
 mappings:
   repository:
@@ -42,3 +43,5 @@ mappings:
       - WITCH 6.0-EU28
       - OPEN-PROM 2.2
       - REMIND-MAgPIE 3.6-4.14
+      - IMACLIM 2.0
+
