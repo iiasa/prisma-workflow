@@ -35,7 +35,7 @@ native_regions:
   - CHN: China
   - CIV: Côte d'Ivoire
   - CMR: Cameroon
-  - COG: Democratic Republic of the Congo
+  - COG: Congo
   - COL: Colombia
   - COM: Comoros
   - CPV: Cabo Verde
@@ -93,7 +93,7 @@ native_regions:
   - KHM: Cambodia
   - KIR: Kiribati
   - KOR: South Korea
-  - KSV: Kosovo
+  - KOS: Kosovo
   - KWT: Kuwait
   - LAO: Laos 
   - LBN: Lebanon
@@ -139,8 +139,9 @@ native_regions:
   - PRK: North Korea
   - PRT: Portugal
   - PRY: Paraguay
+  - PSE: Palestine
   - QAT: Qatar
-  - ROM: Romania
+  - ROU: Romania
   - RUS: Russian Federation
   - RWA: Rwanda
   - SAU: Saudi Arabia
@@ -166,7 +167,7 @@ native_regions:
   - THA: Thailand
   - TJK: Tajikistan
   - TKM: Turkmenistan
-  - TMP: Timor-Leste
+  - TLS: Timor-Leste
   - TON: Tonga
   - TTO: Trinidad and Tobago
   - TUN: Tunisia
@@ -182,7 +183,6 @@ native_regions:
   - VEN: Venezuela
   - VNM: Viet Nam
   - VUT: Vanuatu
-  - WBG: Palestine
   - WSM: Samoa
   - YEM: Yemen
   - ZAF: South Africa
