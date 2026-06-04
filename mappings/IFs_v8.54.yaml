@@ -282,7 +282,7 @@ common_regions:
     - KHM
     - KIR
     - KOR
-    - KSV
+    - KOS
     - KWT
     - LAO
     - LBN
@@ -328,8 +328,9 @@ common_regions:
     - PRK
     - PRT
     - PRY
+    - PSE
     - QAT
-    - ROM
+    - ROU
     - RUS
     - RWA
     - SAU
@@ -355,7 +356,7 @@ common_regions:
     - THA
     - TJK
     - TKM
-    - TMP
+    - TLS
     - TON
     - TTO
     - TUN
@@ -371,7 +372,6 @@ common_regions:
     - VEN
     - VNM
     - VUT
-    - WBG
     - WSM
     - YEM
     - ZAF
@@ -571,7 +571,7 @@ common_regions:
     - NLD
     - POL
     - PRT
-    - ROM
+    - ROU
     - SVK
     - SVN
     - ESP
@@ -774,7 +774,7 @@ common_regions:
     - NLD
     - POL
     - PRT
-    - ROM
+    - ROU
     - SVK
     - SVN
     - ESP
