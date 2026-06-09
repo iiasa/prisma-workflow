@@ -18,7 +18,6 @@ definitions:
         - hierarchy: R9
         - hierarchy: R10
         - hierarchy: Regional Organizations
-        - hierarchy: G20 Members
         - hierarchy: IMAGE 3.4
         - hierarchy: MESSAGEix-GLOBIOM 2.1-R12
         - hierarchy: MESSAGEix-GLOBIOM-GAINS 2.1-R12
@@ -29,6 +28,7 @@ definitions:
         - hierarchy: WITCH 6.0-EU28
         - hierarchy: OPEN-PROM 2.2
         - hierarchy: IMACLIM 2.0
+    country: true
 
 mappings:
   repository:
