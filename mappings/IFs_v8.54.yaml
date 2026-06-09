@@ -382,11 +382,14 @@ common_regions:
   - OECD & EU (R5):
     - AUT
     - BEL
+    - BGR
     - CAN
     - CHE
     - CHL
     - COL
     - CRI
+    - CYP
+    - CZE
     - DEU
     - DNK
     - ESP
@@ -395,6 +398,7 @@ common_regions:
     - FRA
     - GBR
     - GRC
+    - HRV
     - HUN
     - IRL
     - ISL
@@ -406,11 +410,13 @@ common_regions:
     - LUX
     - LVA
     - MEX
+    - MLT
     - NLD
     - NOR
     - NZL
     - POL
     - PRT
+    - ROU
     - SVK
     - SVN
     - SWE
@@ -427,6 +433,7 @@ common_regions:
     - GEO
     - KAZ
     - KGZ
+    - KOS
     - MKD
     - MDA
     - MNG
@@ -440,23 +447,38 @@ common_regions:
   - Asia (R5):
     - AFG
     - BGD
+    - BRN
+    - BTN
     - CHN
+    - FJI
+    - FSM
     - HKG
     - IDN
     - IND
+    - KIR
     - KHM
     - LAO
+    - LKA
+    - MDV
     - MMR
     - MYS
     - NPL
     - PAK
+    - PNG
     - PHL
+    - PRK
     - SGP
+    - SLB
     - THA
+    - TON
+    - TWN
     - VNM
+    - VUT
+    - WSM
 
   - Middle East & Africa (R5):
     - AGO
+    - ARE
     - BDI
     - BEN
     - BFA
@@ -466,11 +488,13 @@ common_regions:
     - CIV
     - CMR
     - COG
+    - COM
     - CPV
     - DJI
     - DZA
     - EGY
     - ERI
+    - ESH
     - ETH
     - GAB
     - GHA
@@ -498,6 +522,7 @@ common_regions:
     - NER
     - NGA
     - OMN
+    - PSE
     - QAT
     - RWA
     - SAU
@@ -509,6 +534,7 @@ common_regions:
     - STP
     - SWZ
     - SYC
+    - SYR
     - TCD
     - TGO
     - TUN
@@ -532,18 +558,23 @@ common_regions:
     - DOM
     - ECU
     - GTM
+    - GRD
     - GUY
     - HND
     - HTI
     - JAM
+    - LCA
     - NIC
     - PAN
     - PER
+    - PRI
     - PRY
     - SLV
     - SUR
+    - TLS
     - TTO
     - URY
+    - VCT
     - VEN
     - MEX
 
@@ -576,6 +607,7 @@ common_regions:
     - SVN
     - ESP
     - SWE
+  
   - USA (R9):
     - USA
 
@@ -594,127 +626,188 @@ common_regions:
 
   - China (R9):
     - CHN
+    - HKG
+    - TWN
 
   - India (R9):
-      - IND
+    - IND
 
   - Other Asia (R9):
+    - BTN
+    - BRN
+    - FJI
+    - FSM
     - IDN
-    - THA
-    - VNM
-    - MYS
-    - PHL
-    - SGP
+    - KIR
     - KHM
     - LAO
+    - LKA
+    - MDV
     - MMR
-    - BRN
+    - MYS
+    - NPL
+    - PAK
+    - PHL
+    - PNG
     - PRK
+    - SGP
+    - SLB
+    - THA
+    - TLS
+    - TON
+    - VNM
+    - VUT
+    - WSM
 
   - Reforming Economies (R9):
-    - RUS
-    - UKR
+    - ALB
+    - ARM
+    - AZE
+    - BIH
     - BLR
+    - GEO
     - KAZ
     - KGZ
+    - KOS
+    - MDA
+    - MKD
+    - MNG
+    - RUS
+    - SRB
     - TJK
     - TKM
+    - UKR
     - UZB
-    - MNG
-
+    
   - Latin America (R9):
     - ARG
+    - BLZ
     - BOL
     - BRA
+    - BRB
+    - BHS
     - CHL
     - COL
-    - ECU
-    - PER
-    - PRY
-    - URY
-    - VEN
-    - MEX
-    - GTM
-    - SLV
-    - HND
-    - NIC
-    - CRI
-    - PAN
     - CUB
     - DOM
     - HTI
     - JAM
-    - TTO
-    - BRB
-    - BHS
+    - CRI
+    - ECU
+    - GRD
+    - GTM
     - GUY
-    - SRB
+    - HND
+    - LCA
+    - MEX
+    - NIC
+    - PAN
+    - PER
+    - PRI
+    - PRY
+    - SLV
     - SUR
-
+    - TTO
+    - URY
+    - VCT
+    - VEN
+    
   - Middle East & Africa (R9):
     - AFG
+    - AGO
+    - ARE
+    - CAF
+    - BEN
+    - BDI
+    - BFA
     - BGD
     - BHR
-    - IRN
-    - IRQ
-    - ISR
-    - JOR
-    - KWT
-    - LBN
-    - OMN
-    - QAT
-    - SAU
-    - ARE
-    - YEM
-    - DZA
-    - EGY
-    - MAR
-    - TUN
-    - LBY
-    - ESH
-    - NGA
-    - ZAF
-    - ETH
-    - KEN
-    - UGA
-    - TZA
-    - SOM
-    - SDN
-    - SSD
-    - AGO
-    - ZMB
-    - ZWE
-    - MOZ
-    - MWI
-    - NAM
     - BWA
-    - LSO
-    - SWZ
-
-# R10 regions
-  - Africa (R10):
-    - DZA
-    - AGO
-    - BEN
-    - BFA
-    - BWA
-    - BDI
-    - CMR
-    - CAF
-    - TCD
     - CIV
+    - CMR
     - COG
     - COM
     - CPV
     - DJI
+    - DZA
     - EGY
     - ERI
+    - ESH
     - ETH
     - GAB
     - GHA
     - GIN
-    - GMB
     - GNB
+    - GMB
+    - GNQ
+    - IRN
+    - IRQ
+    - ISR
+    - JOR
+    - KEN
+    - KWT
+    - LBN
+    - LBR
+    - LBY
+    - LSO
+    - MAR
+    - MDG
+    - MLI
+    - MOZ
+    - MRT
+    - MUS
+    - MWI
+    - NAM
+    - NER
+    - NGA
+    - OMN
+    - PSE
+    - QAT
+    - RWA
+    - SAU
+    - SDN
+    - SEN
+    - SLE
+    - SOM
+    - SSD
+    - STP
+    - SWZ
+    - SYC
+    - SYR
+    - TCD
+    - TGO
+    - TUN
+    - TZA
+    - UGA
+    - YEM
+    - ZAF
+    - ZMB
+    - ZWE
+    
+# R10 regions
+  - Africa (R10):
+    - AGO
+    - BEN
+    - BDI
+    - BFA
+    - BWA
+    - CAF
+    - CIV
+    - CMR
+    - COG
+    - COM
+    - CPV
+    - DJI
+    - DZA
+    - EGY
+    - ERI
+    - ESH
+    - ETH
+    - GAB
+    - GHA
+    - GIN
+    - GNB
+    - GMB
     - GNQ
     - KEN
     - LBR
@@ -731,11 +824,12 @@ common_regions:
     - NER
     - NGA
     - RWA
+    - SDN
     - SEN
     - SLE
     - SOM
     - SSD
-    - SDN
+    - STP
     - SWZ
     - SYC
     - TCD
@@ -749,7 +843,9 @@ common_regions:
 
   - China+ (R10):
     - CHN
+    - HKG
     - KOR
+    - TWN
 
   - Europe (R10):
     - AUT
@@ -796,32 +892,37 @@ common_regions:
 
   - Latin America (R10):
     - ARG
+    - BHS
+    - BLZ
     - BOL
     - BRA
+    - BRB
     - CHL
     - COL
-    - ECU
-    - PER
-    - PRY
-    - URY
-    - VEN
-    - MEX
-    - GTM
-    - SLV
-    - HND
-    - NIC
     - CRI
-    - PAN
     - CUB
     - DOM
-    - HTI
-    - JAM
-    - TTO
-    - BRB
-    - BHS
+    - ECU
+    - GRD
+    - GTM
     - GUY
+    - HTI
+    - HND
+    - JAM
+    - LCA
+    - MEX
+    - NIC
+    - PAN
+    - PER
+    - PRI
+    - PRY
+    - SLV
     - SUR
-
+    - TTO
+    - URY
+    - VEN
+    - VCT
+    
   - Middle East (R10):
     - BHR
     - IRN
@@ -831,9 +932,11 @@ common_regions:
     - KWT
     - LBN
     - OMN
+    - PSE
     - QAT
     - SAU
     - ARE
+    - SYR
     - YEM
 
   - North America (R10):
@@ -846,27 +949,45 @@ common_regions:
     - NZL
 
   - Reforming Economies (R10):
-    - RUS
-    - UKR
+    - ALB
+    - ARM
+    - AZE
+    - BIH
     - BLR
+    - GEO
     - KAZ
     - KGZ
+    - KOS
+    - MDA
+    - MKD
+    - MNG
+    - RUS
     - SRB
     - TJK
     - TKM
+    - UKR
     - UZB
-    - MNG
-
+    
   - Rest of Asia (R10):
+    - BRN
+    - FJI
+    - FSM
     - IDN
-    - THA
-    - VNM
-    - MYS
-    - PHL
-    - SGP
+    - KIR
     - KHM
     - LAO
+    - MDV
     - MMR
-    - BRN
+    - MYS
+    - PHL
+    - PNG
     - PRK
-
+    - SGP
+    - SLB
+    - THA
+    - TLS
+    - TON
+    - VNM
+    - VUT
+    - WSM
+    
