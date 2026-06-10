@@ -20,5 +20,5 @@
     description: Baseline scenario including variants used for Sustainability-MIP
 - Sustainable:
     description: Scenario meeting multiple sustainability goals, used for Sustainability-MIP
-- "Sustainable_{Variant}":
+- Sustainable [Variant {Variant}]:
     description: Scenario meeting multiple sustainability goals, including variants, used for Sustainability-MIP
