@@ -14,7 +14,7 @@
     description: "{SSP} combined with the Late reawakening scenario"
 - "{SSP} - Staying Alive":
     description: "{SSP} combined with the Staying Alive through low-regrets scenario"
-- "Baseline":
+- Baseline:
     description: Baseline scenario used for Sustainability-MIP
 - "Baseline_{Variant}":
     description: Baseline scenario including variants used for Sustainability-MIP
