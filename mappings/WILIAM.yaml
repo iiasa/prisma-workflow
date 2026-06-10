@@ -1,0 +1,42 @@
+model:
+  - WILIAM
+
+native_regions:
+  - European Union (27 member countries): WILIAM|European Union (27 member countries)
+  - United Kingdom: WILIAM|United Kingdom
+  - China: WILIAM|China
+  - East Asia and Oceania: WILIAM|East Asia and Oceania
+  - India: WILIAM|India
+  - Latin America: WILIAM|Latin America
+  - Russia: WILIAM|Russia
+  - United States, Mexico and Canada: WILIAM|United States, Mexico and Canada
+  - Rest of the World: WILIAM|Rest of the World
+
+common_regions:
+  - World:
+      - European Union (27 member countries)      
+      - United Kingdom
+      - China
+      - East Asia and Oceania
+      - India
+      - Latin America
+      - Russia
+      - United States, Mexico and Canada
+      - Rest of the World
+
+  # R5 regions
+  - OECD & EU (R5):
+      - European Union (27 member countries)      
+      - United Kingdom
+      - United States, Mexico and Canada
+      - East Asia and Oceania
+  - Reforming Economies (R5):
+      - Russia
+  - Asia (R5):
+      - China
+      - India
+  - Middle East & Africa (R5):
+      - Rest of the World
+  - Latin America (R5):
+      - Latin America
+
