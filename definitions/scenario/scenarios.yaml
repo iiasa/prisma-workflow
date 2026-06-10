@@ -16,7 +16,7 @@
     description: "{SSP} combined with the Staying Alive through low-regrets scenario"
 - Baseline:
     description: Baseline scenario used for Sustainability-MIP
-- "Baseline_{Variant}":
+- Baseline [Variant {Variant}]:
     description: Baseline scenario including variants used for Sustainability-MIP
 - "Sustainable":
     description: Scenario meeting multiple sustainability goals, used for Sustainability-MIP
