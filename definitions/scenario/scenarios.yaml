@@ -14,4 +14,7 @@
     description: "{SSP} combined with the Late reawakening scenario"
 - "{SSP} - Staying Alive":
     description: "{SSP} combined with the Staying Alive through low-regrets scenario"
-
+- Baseline [*]:
+    description: Baseline together with basic description of narrative for this baseline (i.e. SSP, post-growth, etc.)
+- Sustainable [*]:
+    description: Scenario meeting multiple sustainability goals with description of scenario narrative, used for Sustainability-MIP
