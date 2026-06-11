@@ -1,0 +1,64 @@
+# The model documentation and regional aggregation for WILIAM
+- WILIAM v1.4:
+    - WILIAM v1.4|European Union (27 member countries):
+        countries: [
+            Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
+            Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania,
+            Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia,
+            Spain, Sweden
+        ]
+    - WILIAM v1.4|United Kingdom:
+        countries: United Kingdom
+    - WILIAM v1.4|China:
+        countries: [
+           China, Hong Kong, Macao, Taiwan
+        ]
+    - WILIAM v1.4|East Asia and Oceania:
+        countries: [
+          American Samoa, Australia, Christmas Island, Cocos (Keeling) Islands,
+          Cook Islands, Fiji, French Polynesia, Guam, Japan, Kiribati, Marshall Islands,
+          Micronesia, Nauru, New Caledonia, New Zealand, Niue, Norfolk Island, North Korea, 
+          Northern Mariana Islands, Palau, Pitcairn, Samoa, Solomon Islands, South Korea, Tokelau,
+          Tonga, Tuvalu, Vanuatu, Wallis and Futuna
+        ]
+    - WILIAM v1.4|India:
+        countries: India
+    - WILIAM v1.4|Latin America:
+        countries: [
+          Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas,
+          Barbados, Belize, Bermuda, Bolivia, "Bonaire, Sint Eustatius and Saba",
+          Bouvet Island, Brazil, British Virgin Islands, Cayman Islands, Chile,
+          Colombia, Costa Rica, Cuba, Curaçao, Dominica, Dominican Republic,
+          Ecuador, El Salvador, Falkland Islands (Malvinas), French Guiana, Grenada,
+          Guadeloupe, Guatemala, Guyana, Haiti, Honduras,
+          Jamaica, Martinique, Montserrat, Nicaragua, Panama, Paraguay, Peru,
+          Puerto Rico, Saint Barthélemy, Saint Kitts and Nevis, Saint Lucia,
+          Saint Martin (French part), Saint Vincent and the Grenadines,
+          Sint Maarten (Dutch part), South Georgia and the South Sandwich Islands,
+          Suriname, Trinidad and Tobago, Turks and Caicos Islands,
+          United States Virgin Islands, Uruguay, Venezuela
+        ]
+    - WILIAM v1.4|Russia:
+        countries: Russian Federation
+    - WILIAM v1.4|United States, Mexico and Canada:
+        countries: [
+           Canada, Mexico, United States
+        ]
+    - WILIAM v1.4|Rest of the World:
+       countries: [
+        Afghanistan, Albania, Algeria, Andorra, Angola, Antarctica, Armenia, Aruba, Azerbaijan, 
+        Bahrain, Bangladesh, Belarus, Benin, Bhutan, Bosnia and Herzegovina, Botswana, Brunei Darussalam,
+        Burkina Faso, Burundi, Cabo Verde, Cambodia, Cameroon, Central African Republic, Chad, Comoros,
+        Côte d'Ivoire, Democratic Republic of the Congo, Djibouti, Egypt, Equatorial Guinea,
+        Eritrea, Eswatini, Ethiopia, Faroe Islands, Gabon, Gambia, Georgia, Ghana, Gibraltar, Guadeloupe, 
+        Guinea, Guinea-Bissau, Iceland, Indonesia, Iran, Iraq, Israel, Jordan, Kazakhstan, Kenya, 
+        Kyrgyzstan, Kuwait, Laos, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Madagascar, 
+        Malawi, Malaysia, Maldives, Mali, Martinique, Mauritania, Mauritius, Moldova, Monaco, 
+        Mongolia, Montenegro, Morocco, Mozambique, Myanmar, Namibia, Nepal, Niger, Nigeria, North Macedonia,
+        Norway, Oman, Pakistan, Palestine, Papua New Guinea, Philippines, Qatar, Réunion, San Marino, Rwanda,
+        "Saint Helena, Ascension and Tristan da Cunha", Sao Tome and Principe, Saudi Arabia, 
+        Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Somalia, South Africa, Sri Lanka, 
+        Sudan, Switzerland, Tajikistan, Tanzania, Thailand, Timor-Leste, Togo, Tunisia,Syria, Turkey, 
+        Turkmenistan, Uganda, Ukraine, United Arab Emirates, Uzbekistan, Vatican, Viet Nam, Western Sahara, 
+        Yemen, Zambia, Zimbabwe 
+    ] 
