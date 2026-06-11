@@ -1,16 +1,16 @@
 model:
-  - WILIAM
+  - WILIAM v1.4
 
 native_regions:
-  - European Union (27 member countries): WILIAM|European Union (27 member countries)
-  - United Kingdom: WILIAM|United Kingdom
-  - China: WILIAM|China
-  - East Asia and Oceania: WILIAM|East Asia and Oceania
-  - India: WILIAM|India
-  - Latin America: WILIAM|Latin America
-  - Russia: WILIAM|Russia
-  - United States, Mexico and Canada: WILIAM|United States, Mexico and Canada
-  - Rest of the World: WILIAM|Rest of the World
+  - European Union (27 member countries): WILIAM v1.4|European Union (27 member countries)
+  - United Kingdom: WILIAM v1.4|United Kingdom
+  - China: WILIAM v1.4|China
+  - East Asia and Oceania: WILIAM v1.4|East Asia and Oceania
+  - India: WILIAM v1.4|India
+  - Latin America: WILIAM v1.4|Latin America
+  - Russia: WILIAM v1.4|Russia
+  - United States, Mexico and Canada: WILIAM v1.4|United States, Mexico and Canada
+  - Rest of the World: WILIAM v1.4|Rest of the World
 
 common_regions:
   - World:
