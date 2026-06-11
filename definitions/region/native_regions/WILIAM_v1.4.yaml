@@ -1,19 +1,19 @@
 # The model documentation and regional aggregation for WILIAM
-- WILIAM:
-    - WILIAM|European Union (27 member countries):
+- WILIAM v1.4:
+    - WILIAM v1.4|European Union (27 member countries):
         countries: [
             Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia,
             Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania,
             Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia,
             Spain, Sweden
         ]
-    - WILIAM|United Kingdom:
+    - WILIAM v1.4|United Kingdom:
         countries: United Kingdom
-    - WILIAM|China:
+    - WILIAM v1.4|China:
         countries: [
            China, Hong Kong, Macao, Taiwan
         ]
-    - WILIAM|East Asia and Oceania:
+    - WILIAM v1.4|East Asia and Oceania:
         countries: [
           American Samoa, Australia, Christmas Island, Cocos (Keeling) Islands,
           Cook Islands, Fiji, French Polynesia, Guam, Japan, Kiribati, Marshall Islands,
@@ -21,9 +21,9 @@
           Northern Mariana Islands, Palau, Pitcairn, Samoa, Solomon Islands, South Korea, Tokelau,
           Tonga, Tuvalu, Vanuatu, Wallis and Futuna
         ]
-    - WILIAM|India:
+    - WILIAM v1.4|India:
         countries: India
-    - WILIAM|Latin America:
+    - WILIAM v1.4|Latin America:
         countries: [
           Anguilla, Antigua and Barbuda, Argentina, Aruba, Bahamas,
           Barbados, Belize, Bermuda, Bolivia, "Bonaire, Sint Eustatius and Saba",
@@ -38,13 +38,13 @@
           Suriname, Trinidad and Tobago, Turks and Caicos Islands,
           United States Virgin Islands, Uruguay, Venezuela
         ]
-    - WILIAM|Russia:
+    - WILIAM v1.4|Russia:
         countries: Russian Federation
-    - WILIAM|United States, Mexico and Canada:
+    - WILIAM v1.4|United States, Mexico and Canada:
         countries: [
            Canada, Mexico, United States
         ]
-    - WILIAM|Rest of the World:
+    - WILIAM v1.4|Rest of the World:
        countries: [
         Afghanistan, Albania, Algeria, Andorra, Angola, Antarctica, Armenia, Aruba, Azerbaijan, 
         Bahrain, Bangladesh, Belarus, Benin, Bhutan, Bosnia and Herzegovina, Botswana, Brunei Darussalam,
