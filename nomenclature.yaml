@@ -45,6 +45,9 @@ mappings:
       - WITCH 6.0
       - WITCH 6.0-EU28
       - OPEN-PROM 2.2
+      - REMIND-MAgPIE 3.2-4.6
       - REMIND-MAgPIE 3.6-4.14
       - IMACLIM 2.0
+      - AIM 3.0
+      - GCAM 8s
 
