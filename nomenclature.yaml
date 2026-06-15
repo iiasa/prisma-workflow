@@ -21,6 +21,7 @@ definitions:
         - hierarchy: IMAGE 3.4
         - hierarchy: MESSAGEix-GLOBIOM 2.1-R12
         - hierarchy: MESSAGEix-GLOBIOM-GAINS 2.1-R12
+        - hierarchy: REMIND-MAgPIE 3.2-4.6
         - hierarchy: REMIND-MAgPIE 3.4-4.8
         - hierarchy: REMIND-MAgPIE 3.5-4.13
         - hierarchy: REMIND-MAgPIE 3.6-4.14
@@ -28,6 +29,8 @@ definitions:
         - hierarchy: WITCH 6.0-EU28
         - hierarchy: OPEN-PROM 2.2
         - hierarchy: IMACLIM 2.0
+        - hierarchy: AIM 3.0
+        - hierarchy: GCAM 8s
     country: true
 
 mappings:
@@ -42,6 +45,9 @@ mappings:
       - WITCH 6.0
       - WITCH 6.0-EU28
       - OPEN-PROM 2.2
+      - REMIND-MAgPIE 3.2-4.6
       - REMIND-MAgPIE 3.6-4.14
       - IMACLIM 2.0
+      - AIM 3.0
+      - GCAM 8s
 
