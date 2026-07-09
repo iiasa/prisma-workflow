@@ -31,6 +31,7 @@ definitions:
         - hierarchy: IMACLIM 2.0
         - hierarchy: AIM 3.0
         - hierarchy: GCAM 8s
+        - hierarchy: GEM-E3 V2026
     country: true
 
 mappings:
@@ -50,4 +51,5 @@ mappings:
       - IMACLIM 2.0
       - AIM 3.0
       - GCAM 8s
+      - GEM-E3 V2026
 
