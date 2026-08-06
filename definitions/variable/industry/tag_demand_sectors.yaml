@@ -17,11 +17,13 @@
           description: construction of wind turbines
     - Electricity|Transmission and Distribution:
           description: electricity transmission and distribution
+    - Transportation|Infrastructure:
+        description: fixed structures, installations and networks for mobility (e.g roads, bridges, rail, waterways) excluding means of transportation (e.g. cars, trains, airplanes)
     - Transportation|Vehicle Stock:
         description: vehicle stock (e.g. cars, trains, airplanes, ships)
     - Residential:
         description: residential sector
     - Commercial:
         description: commercial sector
-    - Transportation|Infrastructure:
-        description: fixed structures, installations and networks for mobility (e.g roads, bridges, rail, waterways) excluding means of transportation (e.g. cars, trains, airplanes)
+    - Residential and Commercial:
+        description: residential and commercial sector
