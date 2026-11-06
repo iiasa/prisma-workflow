@@ -23,11 +23,6 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
                 workflow=Workflow.SCI_V2_2_ALPHA,
                 run_type=MAGICCRunType.COMPLETE,
                 magicc_worker_number=4,
-                model_patterns=[
-                    "MESSAGEix-GLOBIOM*",
-                    "REMIND-MAgPIE*",
-                    "GCAM*",
-                ],
                 magicc_variables=SCI_OUTPUT_VARIABLES_DIAGNOSTIC,
                 include_input_data=True,
             ),
