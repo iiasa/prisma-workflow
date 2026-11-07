@@ -1,1 +1,2 @@
 nomenclature-iamc >= 0.19.0  # use the latest release on PyPI
+scenariocompass >= 2.0.0
