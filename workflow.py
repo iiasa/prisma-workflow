@@ -45,5 +45,7 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
                 include_input_data=True,
             ).apply(df.filter(region="World"))
         )
+        # manual fix for https://github.com/iiasa/climate-processor/issues/105
+        df.rename(unit={"GtC / yr": "GtC/yr"}, inplace=True)
 
     return df
