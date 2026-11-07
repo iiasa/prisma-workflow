@@ -25,8 +25,8 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
         df,
         definition,
         processor=[
-            ScenarioCompassProcessor(),
             RegionProcessor.from_directory(here / "mappings", definition),
+            ScenarioCompassProcessor(),
         ],
     )
 
@@ -36,14 +36,13 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
                 workflow=Workflow.SCI_V2_2_ALPHA,
                 run_type=MAGICCRunType.COMPLETE,
                 magicc_worker_number=4,
-                model_patterns=[
-                    "MESSAGEix-GLOBIOM*",
-                    "REMIND-MAgPIE*",
-                    "GCAM*",
-                ],
                 magicc_variables=SCI_OUTPUT_VARIABLES_DIAGNOSTIC,
                 include_input_data=True,
             ).apply(df.filter(region="World"))
         )
+        # manual fix for https://github.com/iiasa/climate-processor/issues/105
+        df.rename(unit={"GtC / yr": "Gt C/yr"}, inplace=True)
+        df.rename(unit={"GtC/yr": "Gt C/yr"}, inplace=True)
+        df.rename(unit={"MtCH4/yr": "Mt CH4/yr"}, inplace=True)
 
     return df

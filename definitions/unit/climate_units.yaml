@@ -1,0 +1,35 @@
+- °C
+- W/m^2
+- ppb
+- ppm
+- Gt C/yr
+- kt C3F8/yr
+- kt C4F10/yr
+- kt C5F12/yr
+- kt C7F16/yr
+- kt C8F18/yr
+- kt CCl4/yr
+- kt CFC11/yr
+- kt CFC113/yr
+- kt CFC114/yr
+- kt CFC115/yr
+- kt CFC12/yr
+- kt CH2Cl2/yr
+- kt CH3Br/yr
+- kt CH3CCl3/yr
+- kt CH3Cl/yr
+- kt CHCl3/yr
+- kt HCFC141b/yr
+- kt HCFC142b/yr
+- kt HCFC22/yr
+- kt HFC152a/yr
+- kt HFC236fa/yr
+- kt HFC365mfc/yr
+- kt HFC4310/yr  # different naming conventions between common-definitions and gcages
+- kt Halon1202/yr
+- kt Halon1211/yr
+- kt Halon1301/yr
+- kt Halon2402/yr
+- kt NF3/yr
+- kt SO2F2/yr
+- kt cC4F8/yr
