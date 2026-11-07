@@ -2,6 +2,8 @@ import ixmp4
 from climate_processor import MAGICCProcessor, MAGICCRunType, Workflow
 from pyam.ixmp4 import read_run
 
+raise ValueError("This config is not consistent with the latest climate-processor.")
+
 runs = ixmp4.Platform("prisma-internal").runs.list()
 
 applicable_runs = [
