@@ -25,8 +25,8 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
         df,
         definition,
         processor=[
-            ScenarioCompassProcessor(),
             RegionProcessor.from_directory(here / "mappings", definition),
+            ScenarioCompassProcessor(),
         ],
     )
 
