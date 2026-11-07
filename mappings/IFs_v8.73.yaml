@@ -1,0 +1,992 @@
+# The Model documentation for IFs 8.54 can be found at: https://pardeewiki.du.edu/index.php?title=Understand_the_Model
+model:
+- IFs 8.73
+native_regions:
+- Afghanistan
+- Angola
+- Albania
+- United Arab Emirates
+- Argentina
+- Armenia
+- Australia
+- Austria
+- Azerbaijan
+- Burundi
+- Belgium
+- Benin
+- Burkina Faso
+- Bangladesh
+- Bulgaria
+- Bahrain
+- Bahamas
+- Bosnia and Herzegovina
+- Belarus
+- Belize
+- Bolivia
+- Brazil
+- Barbados
+- Brunei Darussalam
+- Bhutan
+- Botswana
+- Central African Republic
+- Canada
+- Switzerland
+- Chile
+- China
+- Côte d'Ivoire
+- Cameroon
+- Congo
+- Colombia
+- Comoros
+- Cabo Verde
+- Costa Rica
+- Cuba
+- Cyprus
+- Czechia
+- Germany
+- Djibouti
+- Denmark
+- Dominican Republic
+- Algeria
+- Ecuador
+- Egypt
+- Eritrea
+- Western Sahara
+- Spain
+- Estonia
+- Ethiopia
+- Finland
+- Fiji
+- France
+- Micronesia
+- Gabon
+- United Kingdom
+- Georgia
+- Ghana
+- Guinea
+- Gambia
+- Guinea-Bissau
+- Equatorial Guinea
+- Greece
+- Grenada
+- Guatemala
+- Guyana
+- Hong Kong
+- Honduras
+- Croatia
+- Haiti
+- Hungary
+- Indonesia
+- India
+- Ireland
+- Iran
+- Iraq
+- Iceland
+- Israel
+- Italy
+- Jamaica
+- Jordan
+- Japan
+- Kazakhstan
+- Kenya
+- Kyrgyzstan
+- Cambodia
+- Kiribati
+- South Korea
+- Kosovo
+- Kuwait
+- Laos
+- Lebanon
+- Liberia
+- Libya
+- Saint Lucia
+- Sri Lanka
+- Lesotho
+- Lithuania
+- Luxembourg
+- Latvia
+- Morocco
+- Moldova
+- Madagascar
+- Maldives
+- Mexico
+- North Macedonia
+- Mali
+- Malta
+- Myanmar
+- Mongolia
+- Montenegro
+- Mozambique
+- Mauritania
+- Mauritius
+- Malawi
+- Malaysia
+- Namibia
+- Niger
+- Nigeria
+- Nicaragua
+- Netherlands
+- Norway
+- Nepal
+- New Zealand
+- Oman
+- Pakistan
+- Panama
+- Peru
+- Philippines
+- Papua New Guinea
+- Poland
+- Puerto Rico
+- North Korea
+- Portugal
+- Paraguay
+- Qatar
+- Romania
+- Russian Federation
+- Rwanda
+- Saudi Arabia
+- Sudan
+- Senegal
+- Singapore
+- Solomon Islands
+- Sierra Leone
+- El Salvador
+- Somalia
+- South Sudan
+- Sao Tome and Principe
+- Suriname
+- Slovakia
+- Slovenia
+- Sweden
+- Eswatini
+- Seychelles
+- Syria
+- Chad
+- Togo
+- Thailand
+- Tajikistan
+- Turkmenistan
+- Timor-Leste
+- Tonga
+- Trinidad and Tobago
+- Tunisia
+- Turkey
+- Taiwan
+- Tanzania
+- Uganda
+- Ukraine
+- Uruguay
+- United States
+- Uzbekistan
+- Saint Vincent and the Grenadines
+- Venezuela
+- Viet Nam
+- Vanuatu
+- Palestine
+- Samoa
+- Yemen
+- Serbia
+- South Africa
+- Democratic Republic of the Congo
+- Zambia
+- Zimbabwe
+common_regions:
+- World:
+  - Afghanistan
+  - Angola
+  - Albania
+  - United Arab Emirates
+  - Argentina
+  - Armenia
+  - Australia
+  - Austria
+  - Azerbaijan
+  - Burundi
+  - Belgium
+  - Benin
+  - Burkina Faso
+  - Bangladesh
+  - Bulgaria
+  - Bahrain
+  - Bahamas
+  - Bosnia and Herzegovina
+  - Belarus
+  - Belize
+  - Bolivia
+  - Brazil
+  - Barbados
+  - Brunei Darussalam
+  - Bhutan
+  - Botswana
+  - Central African Republic
+  - Canada
+  - Switzerland
+  - Chile
+  - China
+  - Côte d'Ivoire
+  - Cameroon
+  - Congo
+  - Colombia
+  - Comoros
+  - Cabo Verde
+  - Costa Rica
+  - Cuba
+  - Cyprus
+  - Czechia
+  - Germany
+  - Djibouti
+  - Denmark
+  - Dominican Republic
+  - Algeria
+  - Ecuador
+  - Egypt
+  - Eritrea
+  - Western Sahara
+  - Spain
+  - Estonia
+  - Ethiopia
+  - Finland
+  - Fiji
+  - France
+  - Micronesia
+  - Gabon
+  - United Kingdom
+  - Georgia
+  - Ghana
+  - Guinea
+  - Gambia
+  - Guinea-Bissau
+  - Equatorial Guinea
+  - Greece
+  - Grenada
+  - Guatemala
+  - Guyana
+  - Hong Kong
+  - Honduras
+  - Croatia
+  - Haiti
+  - Hungary
+  - Indonesia
+  - India
+  - Ireland
+  - Iran
+  - Iraq
+  - Iceland
+  - Israel
+  - Italy
+  - Jamaica
+  - Jordan
+  - Japan
+  - Kazakhstan
+  - Kenya
+  - Kyrgyzstan
+  - Cambodia
+  - Kiribati
+  - South Korea
+  - Kosovo
+  - Kuwait
+  - Laos
+  - Lebanon
+  - Liberia
+  - Libya
+  - Saint Lucia
+  - Sri Lanka
+  - Lesotho
+  - Lithuania
+  - Luxembourg
+  - Latvia
+  - Morocco
+  - Moldova
+  - Madagascar
+  - Maldives
+  - Mexico
+  - North Macedonia
+  - Mali
+  - Malta
+  - Myanmar
+  - Mongolia
+  - Montenegro
+  - Mozambique
+  - Mauritania
+  - Mauritius
+  - Malawi
+  - Malaysia
+  - Namibia
+  - Niger
+  - Nigeria
+  - Nicaragua
+  - Netherlands
+  - Norway
+  - Nepal
+  - New Zealand
+  - Oman
+  - Pakistan
+  - Panama
+  - Peru
+  - Philippines
+  - Papua New Guinea
+  - Poland
+  - Puerto Rico
+  - North Korea
+  - Portugal
+  - Paraguay
+  - Qatar
+  - Romania
+  - Russian Federation
+  - Rwanda
+  - Saudi Arabia
+  - Sudan
+  - Senegal
+  - Singapore
+  - Solomon Islands
+  - Sierra Leone
+  - El Salvador
+  - Somalia
+  - South Sudan
+  - Sao Tome and Principe
+  - Suriname
+  - Slovakia
+  - Slovenia
+  - Sweden
+  - Eswatini
+  - Seychelles
+  - Syria
+  - Chad
+  - Togo
+  - Thailand
+  - Tajikistan
+  - Turkmenistan
+  - Timor-Leste
+  - Tonga
+  - Trinidad and Tobago
+  - Tunisia
+  - Turkey
+  - Taiwan
+  - Tanzania
+  - Uganda
+  - Ukraine
+  - Uruguay
+  - United States
+  - Uzbekistan
+  - Saint Vincent and the Grenadines
+  - Venezuela
+  - Viet Nam
+  - Vanuatu
+  - Palestine
+  - Samoa
+  - Yemen
+  - Serbia
+  - South Africa
+  - Democratic Republic of the Congo
+  - Zambia
+  - Zimbabwe
+- OECD & EU (R5):
+  - Albania
+  - Australia
+  - Austria
+  - Belgium
+  - Bosnia and Herzegovina
+  - Bulgaria
+  - Canada
+  - Croatia
+  - Cyprus
+  - Czechia
+  - Denmark
+  - Estonia
+  - Finland
+  - France
+  - Germany
+  - Greece
+  - Hungary
+  - Iceland
+  - Ireland
+  - Italy
+  - Japan
+  - Kosovo
+  - Latvia
+  - Lithuania
+  - Luxembourg
+  - Malta
+  - Montenegro
+  - Netherlands
+  - New Zealand
+  - North Macedonia
+  - Norway
+  - Poland
+  - Portugal
+  - Puerto Rico
+  - Romania
+  - Serbia
+  - Slovakia
+  - Slovenia
+  - Spain
+  - Sweden
+  - Switzerland
+  - Turkey
+  - United Kingdom
+  - United States
+- Reforming Economies (R5):
+  - Armenia
+  - Azerbaijan
+  - Belarus
+  - Georgia
+  - Kazakhstan
+  - Kyrgyzstan
+  - Moldova
+  - Russian Federation
+  - Tajikistan
+  - Turkmenistan
+  - Ukraine
+  - Uzbekistan
+- Asia (R5):
+  - Afghanistan
+  - Bangladesh
+  - Bhutan
+  - Brunei Darussalam
+  - Cambodia
+  - China
+  - Fiji
+  - Hong Kong
+  - India
+  - Indonesia
+  - Kiribati
+  - Laos
+  - Malaysia
+  - Maldives
+  - Micronesia
+  - Mongolia
+  - Myanmar
+  - Nepal
+  - North Korea
+  - Pakistan
+  - Papua New Guinea
+  - Philippines
+  - Samoa
+  - Singapore
+  - Solomon Islands
+  - South Korea
+  - Sri Lanka
+  - Taiwan
+  - Thailand
+  - Timor-Leste
+  - Tonga
+  - Vanuatu
+  - Viet Nam
+- Middle East & Africa (R5):
+  - Algeria
+  - Angola
+  - Bahrain
+  - Benin
+  - Botswana
+  - Burkina Faso
+  - Burundi
+  - Cameroon
+  - Cabo Verde
+  - Central African Republic
+  - Chad
+  - Comoros
+  - Congo
+  - Côte d'Ivoire
+  - Democratic Republic of the Congo
+  - Djibouti
+  - Egypt
+  - Equatorial Guinea
+  - Eritrea
+  - Ethiopia
+  - Gabon
+  - Gambia
+  - Ghana
+  - Guinea
+  - Guinea-Bissau
+  - Iran
+  - Iraq
+  - Israel
+  - Jordan
+  - Kenya
+  - Kuwait
+  - Lebanon
+  - Lesotho
+  - Liberia
+  - Libya
+  - Madagascar
+  - Malawi
+  - Mali
+  - Mauritania
+  - Mauritius
+  - Morocco
+  - Mozambique
+  - Namibia
+  - Niger
+  - Nigeria
+  - Palestine
+  - Oman
+  - Qatar
+  - Rwanda
+  - Sao Tome and Principe
+  - Saudi Arabia
+  - Senegal
+  - Seychelles
+  - Sierra Leone
+  - Somalia
+  - South Africa
+  - South Sudan
+  - Sudan
+  - Eswatini
+  - Syria
+  - Togo
+  - Tunisia
+  - Uganda
+  - United Arab Emirates
+  - Tanzania
+  - Western Sahara
+  - Yemen
+  - Zambia
+  - Zimbabwe
+- Latin America (R5):
+  - Argentina
+  - Bahamas
+  - Barbados
+  - Belize
+  - Bolivia
+  - Brazil
+  - Chile
+  - Colombia
+  - Costa Rica
+  - Cuba
+  - Dominican Republic
+  - Ecuador
+  - El Salvador
+  - Grenada
+  - Guatemala
+  - Guyana
+  - Haiti
+  - Honduras
+  - Jamaica
+  - Mexico
+  - Nicaragua
+  - Panama
+  - Paraguay
+  - Peru
+  - Puerto Rico
+  - Saint Lucia
+  - Saint Vincent and the Grenadines
+  - Suriname
+  - Trinidad and Tobago
+  - Uruguay
+  - Venezuela
+- European Union (R9):
+  - Austria
+  - Belgium
+  - Bulgaria
+  - Croatia
+  - Cyprus
+  - Czechia
+  - Denmark
+  - Estonia
+  - Finland
+  - France
+  - Germany
+  - Greece
+  - Hungary
+  - Ireland
+  - Italy
+  - Latvia
+  - Lithuania
+  - Luxembourg
+  - Malta
+  - Netherlands
+  - Poland
+  - Portugal
+  - Romania
+  - Slovakia
+  - Slovenia
+  - Spain
+  - Sweden
+- USA (R9):
+  - United States
+- Other OECD (R9):
+  - Albania
+  - Australia
+  - Bosnia and Herzegovina
+  - Canada
+  - Iceland
+  - Japan
+  - Kosovo
+  - Montenegro
+  - New Zealand
+  - North Macedonia
+  - Norway
+  - Puerto Rico
+  - Serbia
+  - United Kingdom
+  - Switzerland
+  - Turkey
+- China (R9):
+  - China
+  - Hong Kong
+- India (R9):
+  - India
+- Other Asia (R9):
+  - Afghanistan
+  - Bangladesh
+  - Bhutan
+  - Brunei Darussalam
+  - Cambodia
+  - Fiji
+  - Indonesia
+  - Kiribati
+  - Laos
+  - Malaysia
+  - Maldives
+  - Micronesia
+  - Mongolia
+  - Myanmar
+  - Nepal
+  - North Korea
+  - Pakistan
+  - Papua New Guinea
+  - Philippines
+  - Samoa
+  - Singapore
+  - Solomon Islands
+  - South Korea
+  - Sri Lanka
+  - Taiwan
+  - Thailand
+  - Timor-Leste
+  - Tonga
+  - Vanuatu
+  - Viet Nam
+- Reforming Economies (R9):
+  - Armenia
+  - Azerbaijan
+  - Belarus
+  - Georgia
+  - Kazakhstan
+  - Kyrgyzstan
+  - Moldova
+  - Russian Federation
+  - Tajikistan
+  - Turkmenistan
+  - Ukraine
+  - Uzbekistan
+- Latin America (R9):
+  - Argentina
+  - Bahamas
+  - Barbados
+  - Belize
+  - Bolivia
+  - Brazil
+  - Chile
+  - Colombia
+  - Costa Rica
+  - Cuba
+  - Dominican Republic
+  - Ecuador
+  - El Salvador
+  - Grenada
+  - Guatemala
+  - Guyana
+  - Haiti
+  - Honduras
+  - Jamaica
+  - Mexico
+  - Nicaragua
+  - Panama
+  - Paraguay
+  - Peru
+  - Puerto Rico
+  - Saint Lucia
+  - Saint Vincent and the Grenadines
+  - Suriname
+  - Trinidad and Tobago
+  - Uruguay
+  - Venezuela
+- Middle East & Africa (R9):
+  - Algeria
+  - Angola
+  - Bahrain
+  - Benin
+  - Botswana
+  - Burkina Faso
+  - Burundi
+  - Cameroon
+  - Cabo Verde
+  - Central African Republic
+  - Chad
+  - Comoros
+  - Congo
+  - Côte d'Ivoire
+  - Democratic Republic of the Congo
+  - Djibouti
+  - Egypt
+  - Equatorial Guinea
+  - Eritrea
+  - Eswatini
+  - Ethiopia
+  - Gabon
+  - Gambia
+  - Ghana
+  - Guinea
+  - Guinea-Bissau
+  - Iran
+  - Iraq
+  - Israel
+  - Jordan
+  - Kenya
+  - Kuwait
+  - Lebanon
+  - Lesotho
+  - Liberia
+  - Libya
+  - Madagascar
+  - Malawi
+  - Mali
+  - Mauritania
+  - Mauritius
+  - Morocco
+  - Mozambique
+  - Namibia
+  - Niger
+  - Nigeria
+  - Palestine
+  - Oman
+  - Qatar
+  - Rwanda
+  - Sao Tome and Principe
+  - Saudi Arabia
+  - Senegal
+  - Seychelles
+  - Sierra Leone
+  - Somalia
+  - South Africa
+  - South Sudan
+  - Sudan
+  - Syria
+  - Togo
+  - Tunisia
+  - Uganda
+  - United Arab Emirates
+  - Tanzania
+  - Western Sahara
+  - Yemen
+  - Zambia
+  - Zimbabwe
+- Africa (R10):
+  - Algeria
+  - Angola
+  - Benin
+  - Botswana
+  - Burkina Faso
+  - Burundi
+  - Cameroon
+  - Cabo Verde
+  - Central African Republic
+  - Chad
+  - Comoros
+  - Congo
+  - Côte d'Ivoire
+  - Democratic Republic of the Congo
+  - Djibouti
+  - Egypt
+  - Equatorial Guinea
+  - Eritrea
+  - Ethiopia
+  - Gabon
+  - Gambia
+  - Ghana
+  - Guinea
+  - Guinea-Bissau
+  - Kenya
+  - Lesotho
+  - Liberia
+  - Libya
+  - Madagascar
+  - Malawi
+  - Mali
+  - Mauritania
+  - Mauritius
+  - Morocco
+  - Mozambique
+  - Namibia
+  - Niger
+  - Nigeria
+  - Rwanda
+  - Sao Tome and Principe
+  - Senegal
+  - Seychelles
+  - Sierra Leone
+  - Somalia
+  - South Africa
+  - South Sudan
+  - Sudan
+  - Eswatini
+  - Togo
+  - Tunisia
+  - Uganda
+  - Tanzania
+  - Western Sahara
+  - Zambia
+  - Zimbabwe
+- China+ (R10):
+  - China
+  - Hong Kong
+  - Mongolia
+  - North Korea
+  - South Korea
+- Europe (R10):
+  - Albania
+  - Austria
+  - Belgium
+  - Bosnia and Herzegovina
+  - Bulgaria
+  - Croatia
+  - Cyprus
+  - Czechia
+  - Denmark
+  - Estonia
+  - France
+  - Finland
+  - Germany
+  - Greece
+  - Hungary
+  - Iceland
+  - Ireland
+  - Italy
+  - Kosovo
+  - Latvia
+  - Lithuania
+  - Luxembourg
+  - Malta
+  - Montenegro
+  - Netherlands
+  - North Macedonia
+  - Norway
+  - Portugal
+  - Switzerland
+  - Poland
+  - Romania
+  - Serbia
+  - Slovakia
+  - Slovenia
+  - Spain
+  - Sweden
+  - Turkey
+  - United Kingdom
+- India+ (R10):
+  - India
+  - Afghanistan
+  - Bangladesh
+  - Bhutan
+  - Maldives
+  - Nepal
+  - Pakistan
+  - Sri Lanka
+- Latin America (R10):
+  - Argentina
+  - Bahamas
+  - Barbados
+  - Belize
+  - Bolivia
+  - Brazil
+  - Chile
+  - Colombia
+  - Costa Rica
+  - Cuba
+  - Dominican Republic
+  - Ecuador
+  - El Salvador
+  - Grenada
+  - Guatemala
+  - Guyana
+  - Haiti
+  - Honduras
+  - Jamaica
+  - Mexico
+  - Nicaragua
+  - Panama
+  - Paraguay
+  - Peru
+  - Puerto Rico
+  - Saint Lucia
+  - Saint Vincent and the Grenadines
+  - Suriname
+  - Trinidad and Tobago
+  - Uruguay
+  - Venezuela
+- Middle East (R10):
+  - Bahrain
+  - Iraq
+  - Iran
+  - Israel
+  - Jordan
+  - Kuwait
+  - Lebanon
+  - Oman
+  - Palestine
+  - Qatar
+  - Saudi Arabia
+  - Syria
+  - United Arab Emirates
+  - Yemen
+- North America (R10):
+  - Canada
+  - United States
+- Pacific OECD (R10):
+  - Australia
+  - Japan
+  - New Zealand
+- Reforming Economies (R10):
+  - Armenia
+  - Azerbaijan
+  - Belarus
+  - Georgia
+  - Kazakhstan
+  - Kyrgyzstan
+  - Moldova
+  - Russian Federation
+  - Tajikistan
+  - Turkmenistan
+  - Ukraine
+  - Uzbekistan
+- Rest of Asia (R10):
+  - Brunei Darussalam
+  - Cambodia
+  - Fiji
+  - Indonesia
+  - Kiribati
+  - Laos
+  - Malaysia
+  - Micronesia
+  - Myanmar
+  - Papua New Guinea
+  - Philippines
+  - Samoa
+  - Singapore
+  - Solomon Islands
+  - Taiwan
+  - Thailand
+  - Timor-Leste
+  - Tonga
+  - Vanuatu
+  - Viet Nam
+- G20:
+  - Argentina
+  - Australia
+  - Brazil
+  - Canada
+  - China
+  - France
+  - Germany
+  - India
+  - Indonesia
+  - Italy
+  - Japan
+  - Mexico
+  - Russian Federation
+  - Saudi Arabia
+  - South Africa
+  - South Korea
+  - Turkey
+  - United Kingdom
+  - United States
