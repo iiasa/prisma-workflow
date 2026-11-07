@@ -1,0 +1,19 @@
+- Material Use:
+    - Vehicles:
+        description: vehicle stock (e.g. cars, trains, airplanes, ships)
+    - Construction|Buildings|Residential:
+        description: residential buildings
+    - Construction|Buildings|Commercial:
+        description: commercial buildings
+    - Construction|Civil Engineering:
+        description: civil engineering structures for transportation, utilities, and other infrastructure
+    - Machinery:
+        description: machinery and equipment mostly used in industries
+    - Appliances:
+        description: appliances mostly used commercially and in households
+    - Consumer Goods:
+        description: consumer goods such as clothing, furniture, and electronics
+    - Packaging:
+        description: packaging materials
+    - Other:
+        description: other manufactured goods not specified above
