@@ -33,6 +33,7 @@ definitions:
         - hierarchy: AIM 3.0
         - hierarchy: GCAM 8s
         - hierarchy: GEM-E3 V2026
+        - hierarchy: GCAM 7.0
     country: true
 
 mappings:
@@ -54,4 +55,4 @@ mappings:
       - AIM 3.0
       - GCAM 8s
       - GEM-E3 V2026
-
+      - GCAM-PKU 7.0
